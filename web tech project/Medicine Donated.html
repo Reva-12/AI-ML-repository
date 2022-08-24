@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url("pills.jpg");
+  background-size: 1280px;
+}
+</style>
+</head>
+
+<body>
+<pre>
+<p><font size=10, color='white'><center>Enter the details of the Medicines to be donated</center></font></p>
+
+<form id="frm1" action="/action_page.php">
+  <font size=7, color='white'>
+  Medicine Name: <input type="text" name="mname"><br>
+
+  Quantity: <input type="number" qty="qmnum"><br>
+
+  Expiry Date: <input type="date" exp="exdt"><br>
+  <input type="button" onclick="myFunction()" value="Submit">
+  </font>
+</form>
+
+<script>
+function myFunction() {
+  document.getElementById("frm1").submit();
+}
+</script>
+</pre>
+</body>
+</html>

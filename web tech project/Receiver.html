@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+body {
+  background-image: url("OIP.jpg");
+  background-size: 1750px;
+}
+</style>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the side navigation */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #082960;
+  overflow-x: hidden;
+}
+
+
+/* Side navigation links */
+.sidenav a {
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the content */
+.content {
+  margin-left: 200px;
+  padding-left: 20px;
+}
+</style>
+</head>
+<body>
+<pre>
+
+<div class="sidenav">
+  
+  <form id="frm1" action="/action_page.php"><font size=5 ,color='black'>
+  </div>
+<div class="content"><center><h1>Make Request</h1></center>
+<h2>  Enter your details</h2>
+<form id="frm1" action="/action_page.php"><font size=5,color='black'>
+  Name :           <input type="text" name="dname"size=30 height=15><br>
+
+  Phone no.  :     <input type="number" name="pnumber"size=30><br>
+
+  Email-id  :      <input type="text" name="eid"size=30><br>
+
+  Address   :      <input type="text" name="address"size=30><br><br>
+
+  Request  
+  
+  Medicine :   <input type="text" name="mname"size=30 height=15><br>
+  Blood  :     <input type="text" name="bname"size=30 height=15><br>
+  Equipment :  <input type="text" name="dname"size=30 height=15><br>
+
+  Quantity  :  <input type="text" name="number"size=30 height=15><br>
+ <input type="button" onclick="myFunction()" value="Submit">
+</font>
+</form>
+
+<script>
+function myFunction() {
+  document.getElementById("frm1").submit();
+}
+</script>
+</div>
+
+</body>
+</html>
+
+

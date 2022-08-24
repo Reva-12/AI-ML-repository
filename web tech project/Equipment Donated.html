@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url("equipment.jpg");
+  background-size: 1280px;
+}
+</style>
+</head>
+
+<body>
+<pre>
+<p><font size=10, color='black'><center>Enter the details of the Equipments to be donated</center></font></p>
+
+<form id="frm1" action="/action_page.php">
+  <font size=7, color='black'>
+  Equipment Name: <input type="text" name="ename"><br>
+
+  Quantity: <input type="number" qty="qenum"><br><br>
+  <input type="button" onclick="myFunction()" value="Submit">
+  </font>
+</form>
+
+<script>
+function myFunction() {
+  document.getElementById("frm1").submit();
+}
+</script>
+</pre>
+</body>
+</html>
